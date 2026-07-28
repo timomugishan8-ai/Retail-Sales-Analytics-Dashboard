@@ -5,3 +5,6 @@ seaborn
 plotly
 jupyter
 scikit-learn
+powerbi
+git
+github
