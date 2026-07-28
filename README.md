@@ -1,67 +1,44 @@
 # Retail Sales Analytics Dashboard
 
-This project explores a retail sales dataset end to end, from data cleaning and exploratory analysis to business insight generation and dashboard planning. The analysis focuses on regional performance, profitability, discount effects, product mix, customer segments, and state-level sales distribution.
+## Business Problem / Description
+This project focuses on a retail sales analysis challenge: understanding how sales, profit, discounts, and customer behavior vary across regions, states, categories, and segments. The goal was to turn raw transactional data into a clear, decision-ready Power BI dashboard that helps stakeholders identify profitable opportunities, spot underperforming areas, and improve business strategy.
 
-## Project Objectives
-
-- Clean and prepare raw sales data
-- Perform exploratory data analysis (EDA)
-- Identify key drivers of sales and profit
-- Support decision-making with clear data visualizations
-- Build the foundation for an interactive Power BI dashboard
-
-## EDA Findings
-
-The exploratory analysis uncovered several important business insights:
-
-- The West region generated the highest total sales, exceeding $700,000, while the South recorded the lowest sales among the regions.
-- California, New York, Washington, Michigan, and Virginia appeared among the top states by total profit, but several states also showed negative profitability, revealing that strong sales do not always translate into healthy margins.
-- Technology was a major driver of sales activity, while the analysis also showed that high sales volume does not necessarily mean high profitability.
-- Higher discounts were associated with lower profit, suggesting that discounting strategy should be reviewed, especially for low-margin products and categories.
-- States with strong sales but weak or negative profit margins highlight the need to monitor profitability alongside revenue growth.
-- Technology-related sub-categories and products made a strong contribution to overall sales, making product-level analysis essential for growth planning.
-- Sales and profit patterns were also reviewed by customer segment and ship mode to identify additional operational and customer-based opportunities.
-
-## Visuals and Analysis Notebook
-
-The full EDA workflow is documented in [notebooks/data_exploration.ipynb](notebooks/data_exploration.ipynb).
-
-Key visuals included in the analysis:
-
-- [notebooks/total_sales_by_state.html](notebooks/total_sales_by_state.html) – interactive map of total sales by state
-- Bar charts for total sales by region
-- Bar charts for total profit by state
-- Category and sub-category sales/profit analysis
-- Scatter plot showing profit versus discount
-- Sales and profit comparison by customer segment
-- Sales analysis by ship mode
-
-## Tech Stack
-
+## Tools Used
 - Python
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Plotly
-- Power BI
 - Jupyter Notebook
+- Power BI
 - Git & GitHub
 
-## Repository Structure
+## Workflow
+1. Data collection: Imported retail sales data from the provided CSV dataset and organized it for analysis.
+2. Data cleaning: Prepared the data by handling inconsistencies, validating fields, and ensuring it was suitable for analysis.
+3. Exploratory data analysis (EDA): Investigated sales and profit patterns by region, state, category, sub-category, customer segment, and ship mode.
+4. Business analysis: Examined the relationship between discounting and profitability to uncover operational and pricing insights.
+5. Power BI dashboard: Built an interactive dashboard to summarize key metrics and support business decision-making.
+6. Insights and recommendations: Highlighted areas of growth, risk, and opportunities for improved profitability.
 
-```text
-Retail-Sales-Analytics-Dashboard/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── reports/
-├── src/
-├── powerbi/
-├── images/
-├── requirements.txt
-└── README.md
-```
+## Dashboard Preview
+The dashboard presents a business-focused overview of sales performance, profitability, and key drivers across the retail operation.
 
-This project is part of a growing data science portfolio focused on turning raw business data into actionable insights.
+![Power BI Dashboard Preview](images/Screenshot%20(933).png)
+
+## Key Insights
+- The West region generated the highest total sales, while the South recorded the lowest sales among the regions.
+- Strong sales did not always translate into strong profits, revealing that profitability must be monitored alongside revenue growth.
+- Technology was a major contributor to sales volume, but the analysis showed that high sales do not always mean healthy margins.
+- Higher discounts were associated with lower profit, suggesting that pricing and discount strategies should be reviewed.
+- State-level performance showed that some locations were strong revenue generators but weak profit contributors, signaling the need for deeper profitability analysis.
+
+## Lessons Learned
+- Revenue and profit should be evaluated together, since they do not always move in the same direction.
+- Discount strategies can significantly affect margin, especially for low-profit products or categories.
+- Clear visual storytelling is essential for turning analytics into business action.
+- A well-designed dashboard helps non-technical stakeholders quickly understand performance and make better decisions.
+
+## Analysis Notebook
+The full exploratory workflow is documented in [notebooks/data_exploration.ipynb](notebooks/data_exploration.ipynb), and an interactive map of state-level sales is available in [notebooks/total_sales_by_state.html](notebooks/total_sales_by_state.html).
