@@ -34,6 +34,16 @@ The dashboard presents a business-focused overview of sales performance, profita
 - Higher discounts were associated with lower profit, suggesting that pricing and discount strategies should be reviewed.
 - State-level performance showed that some locations were strong revenue generators but weak profit contributors, signaling the need for deeper profitability analysis.
 
+## Recommendations
+Based on the analysis, the following recommendations are proposed:
+
+- Continue investing in Technology products, as they generate both strong revenue and high profitability.
+- Investigate the profitability of Furniture products to determine whether production costs or discount levels are reducing margins.
+- Develop targeted marketing campaigns to improve sales performance in the South region.
+- Strengthen customer retention strategies within the Consumer segment while exploring opportunities to grow Corporate and Home Office customers.
+- Review the current discount policy to ensure discounts are increasing sales without unnecessarily reducing profits.
+- Monitor high-performing sub-categories such as Phones and Chairs to ensure adequate inventory levels and prevent stock shortages.
+
 ## Lessons Learned
 - Revenue and profit should be evaluated together, since they do not always move in the same direction.
 - Discount strategies can significantly affect margin, especially for low-profit products or categories.
