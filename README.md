@@ -1,7 +1,7 @@
-# Retail Sales Analytics Dashboard
+# Superstore Sales Analytics Dashboard
 
 ## Business Problem / Description
-This project focuses on a retail sales analysis challenge: understanding how sales, profit, discounts, and customer behavior vary across regions, states, categories, and segments. The goal was to turn raw transactional data into a clear, decision-ready Power BI dashboard that helps stakeholders identify profitable opportunities, spot underperforming areas, and improve business strategy.
+This project focuses on a superstore sales analysis challenge: understanding how sales, profit, discounts, and customer behavior vary across regions, states, categories, and segments. The goal was to turn raw transactional data into a clear, decision-ready Power BI dashboard that helps stakeholders identify profitable opportunities, spot underperforming areas, and improve business strategy.
 
 ## Tools Used
 - Python
@@ -15,9 +15,9 @@ This project focuses on a retail sales analysis challenge: understanding how sal
 - Git & GitHub
 
 ## Workflow
-1. Data collection: Imported retail sales data from the provided CSV dataset and organized it for analysis.
+1. Data collection: Imported superstore sales data from the provided CSV dataset and organized it for analysis.
 2. Data cleaning: Prepared the data by handling inconsistencies, validating fields, and ensuring it was suitable for analysis.
-3. Exploratory data analysis (EDA): Investigated sales and profit patterns by region, state, category, sub-category, customer segment, and ship mode.
+3. Exploratory data analysis (EDA): Investigated sales and profit patterns by region, state, category, sub-category, customer segment, and ship mode using python in a jupyter notebook.
 4. Business analysis: Examined the relationship between discounting and profitability to uncover operational and pricing insights.
 5. Power BI dashboard: Built an interactive dashboard to summarize key metrics and support business decision-making.
 6. Insights and recommendations: Highlighted areas of growth, risk, and opportunities for improved profitability.
